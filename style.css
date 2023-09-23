@@ -1,0 +1,92 @@
+*{
+    box-sizing: content-box;
+    font-family:sans-serif;
+}
+
+body{
+    background: linear-gradient(0.4turn, rgb(22, 22, 122), rgb(119, 15, 119)) no-repeat;
+    background-size: cover;
+}
+
+.BgElement{
+    
+    background-color: antiquewhite;
+    height: 80%;
+    width: 70%;
+    border-radius: 10PX;
+    top: 10%;
+    left: 15%;
+    position:relative;
+}
+
+#inner{
+    position: relative;
+    background-size: cover;
+    background-image: url("inner-croped.jpg");
+    background-repeat: no-repeat; 
+    display: flex;
+    height: 100%;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#text{
+    margin: 3%;
+    position: relative;
+    /* height: 100%; */
+    width: 50%;
+    left: 50%;
+    bottom: 100%;
+}
+#login{
+    color: rgb(230, 30, 230);
+}
+#discription{
+    font-family:serif;
+    color: rgb(80, 74, 80);
+}
+h4{
+    
+    margin: 2%;
+}
+#Username{
+    margin: 1%;
+    color: rgb(230, 30, 230);
+    border: 0px;
+    width: 60%;
+    height: 7%;
+    border-radius: 10px;
+}
+
+#password{
+    margin: 1%;
+    color: rgb(230, 30, 230);
+    border: 0px;
+    width: 60%;
+    height: 7%;
+    border-radius: 10px;
+}
+
+.sub{
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 30, 230);
+    border: 0px;
+    width: 60%;
+    height: 7%;
+    top: 100%;
+    border-radius: 10px;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+    width: 30%;
+}
+#fp{
+    left : 60%; 
+    bottom: 0.1%;
+    position: absolute;
+
+
+}
+
