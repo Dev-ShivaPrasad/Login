@@ -49,7 +49,7 @@ body {
 
 
 #Username {
-    font-size: 150%;
+    font-size: 120%;
     color: rgb(230, 30, 230);
     border: 0px;
     width: 60%;
@@ -58,7 +58,7 @@ body {
 }
 
 #password {
-    font-size: 150%;
+    font-size: 120%;
     color: rgb(230, 30, 230);
     border: 0px;
     width: 60%;
@@ -104,16 +104,14 @@ p{
 
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px)
+{
     .BgElement {
-
-        background-color: antiquewhite;
+        
         height: 90%;
         width: 80%;
-        border-radius: 10PX;
         top: 4.5%;
         left: 11%;
-        position: relative;
     }
 
     #inner {
@@ -126,7 +124,6 @@ p{
 
     #text {
         margin: 0%;
-        position: relative;
         height: 60%;
         width: 100%;
         left: 10%;
@@ -134,7 +131,6 @@ p{
     }
 
     #chbx{
-        position: absolute;
         width: 100%;
         top: 64%;
     }
@@ -142,8 +138,6 @@ p{
     #Loginbtn {
         height: 10%;
         top: 75%;
-        position: absolute;
-        border-radius: 10px;
     }
 
     p{
@@ -154,10 +148,49 @@ p{
         width: 100%;
         top: 90%;
     }
-
-    
-#fp {
+    #fp {
     left: 65%;
+    }
 }
+ @media screen and (max-width: 600px){ 
 
+    #login {
+        font-size: 120%;
+        
+    }
+    #discription {
+        font-size: 85%;
+        width: 90%;
+    }
+    #un{
+        font-size: 90%;
+        margin: 3%;
+    }
+    #pass{
+        font-size: 90%;
+        margin: 3%;
+    }
+
+    #text {
+        position: absolute;
+        left: 5%;
+    }
+    #chbx{
+        position: absolute;
+        width: 100%;
+        top: 70%;
+    }
+    #Loginbtn {
+        height: 7%;
+        top: 80%;
+        position: absolute;
+        border-radius: 10px;
+    }
+
+    #algn{
+
+        position: absolute;
+        width: 100%;
+        top: 90%;
+    }
 }
