@@ -17,6 +17,17 @@ body {
     top: 10%;
     left: 15%;
     position: relative;
+    animation: pop 1s ease-in-out;
+}
+
+@keyframes pop {
+    from {
+        transform: scale(0);
+    }
+    
+    to {
+        transform: scale(1);
+    }
 }
 
 #inner {
